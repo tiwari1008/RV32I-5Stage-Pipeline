@@ -22,9 +22,7 @@ output reg zero //high if result is 0
             6'b000111: result = src1 | src2;                  // OR
             6'b001000: result = src1 & src2;                  // AND
 
-            // --- Branch Comparisons ---
-            // These return 1 (True) or 0 (False) to the datapath
-            6'b010000: result = (src1 == src2) ? 32'd1 : 32'd0;                   // BEQ
+              6'b010000: result = (src1 == src2) ? 32'd1 : 32'd0;                   // BEQ
             6'b010001: result = (src1 != src2) ? 32'd1 : 32'd0;                   // BNE
             6'b010010: result = ($signed(src1) >= $signed(src2)) ? 32'd1 : 32'd0; // BGE
             6'b010011: result = ($signed(src1) < $signed(src2)) ? 32'd1 : 32'd0;  // BLT
@@ -32,7 +30,6 @@ output reg zero //high if result is 0
             default: result = 32'd0;
         endcase
 
-        // Update Zero Flag (useful for standard BEQ logic if needed later)
-        if (result == 0) zero = 1;
+         if (result == 0) zero = 1;
         end
 endmodule
