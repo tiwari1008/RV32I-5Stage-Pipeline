@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
   module data_path(
-  input clk ,
+  input clk , 
   input rst , 
   input[5:0] alu_control ,
   input mem_to_reg ,
