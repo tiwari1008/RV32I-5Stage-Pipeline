@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
  
 module alu(
-input [31:0] src1 ,
+ input [31:0] src1 , 
 input [31:0] src2 , 
 input [5:0] alu_control ,
  output reg [31:0] result ,
