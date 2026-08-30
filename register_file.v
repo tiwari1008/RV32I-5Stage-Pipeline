@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
  
 module register_file(
-input clk ,
+input clk , 
 input rst , 
 input reg_write ,
 input[4:0] read_reg_num1,
