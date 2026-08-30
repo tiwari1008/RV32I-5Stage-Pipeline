@@ -3,7 +3,7 @@
 module stall(
 input [4:0] if_id_rs1_num,
 input [4:0] if_id_rs2_num,
-input id_ex_mem_to_reg,
+input id_ex_mem_to_reg, 
 input [4:0] id_ex_write_reg_num,
 
 output   pc_write ,
