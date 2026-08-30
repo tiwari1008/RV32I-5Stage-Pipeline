@@ -3,7 +3,7 @@
 module instrc_fetch_unit(
 input clk ,
 input rst , 
-input [31:0]  next_pc , 
+input [31:0]  next_pc ,
 output reg [31:0] pc ,
 input pc_write_en
      );
