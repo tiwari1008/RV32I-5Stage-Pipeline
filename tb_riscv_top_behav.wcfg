@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_riscv_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_riscv_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="270.001 ns"></ZoomEndTime>
+      <Cursor1Time time="41.804 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="224"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/tb_riscv_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/fd" type="array">
+      <obj_property name="ElementShortName">fd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/pc_current" type="array">
+      <obj_property name="ElementShortName">pc_current[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_current[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/instruction_out" type="array">
+      <obj_property name="ElementShortName">instruction_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[5:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/mem_to_reg" type="logic">
+      <obj_property name="ElementShortName">mem_to_reg</obj_property>
+      <obj_property name="ObjectShortName">mem_to_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/mem_write" type="logic">
+      <obj_property name="ElementShortName">mem_write</obj_property>
+      <obj_property name="ObjectShortName">mem_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/alu_src" type="logic">
+      <obj_property name="ElementShortName">alu_src</obj_property>
+      <obj_property name="ObjectShortName">alu_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/reg_write" type="logic">
+      <obj_property name="ElementShortName">reg_write</obj_property>
+      <obj_property name="ObjectShortName">reg_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/lui_operation" type="logic">
+      <obj_property name="ElementShortName">lui_operation</obj_property>
+      <obj_property name="ObjectShortName">lui_operation</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/jump" type="logic">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/beq_control" type="logic">
+      <obj_property name="ElementShortName">beq_control</obj_property>
+      <obj_property name="ObjectShortName">beq_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/bneq_control" type="logic">
+      <obj_property name="ElementShortName">bneq_control</obj_property>
+      <obj_property name="ObjectShortName">bneq_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/bgeq_control" type="logic">
+      <obj_property name="ElementShortName">bgeq_control</obj_property>
+      <obj_property name="ObjectShortName">bgeq_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/blt_control" type="logic">
+      <obj_property name="ElementShortName">blt_control</obj_property>
+      <obj_property name="ObjectShortName">blt_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/pc_plus_4" type="array">
+      <obj_property name="ElementShortName">pc_plus_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_plus_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/imm_val" type="array">
+      <obj_property name="ElementShortName">imm_val[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_val[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/read_data1" type="array">
+      <obj_property name="ElementShortName">read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/read_data2" type="array">
+      <obj_property name="ElementShortName">read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/alu_src_b" type="array">
+      <obj_property name="ElementShortName">alu_src_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_src_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/mem_read_data" type="array">
+      <obj_property name="ElementShortName">mem_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/DP/write_back_data" type="array">
+      <obj_property name="ElementShortName">write_back_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_back_data[31:0]</obj_property>
+   </wvobject>
+</wave_config>
