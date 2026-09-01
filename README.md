@@ -6,7 +6,7 @@ This project implements a 32-bit RISC-V (RV32I) pipelined processor in Verilog, 
 ---
 
 ## 🧠 Pipeline Architecture
-The processor consists of 5 stages:
+The processor consists of 5 stages: 
 
 - IF (Instruction Fetch)  
 - ID (Instruction Decode)  
